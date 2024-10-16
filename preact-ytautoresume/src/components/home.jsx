@@ -163,8 +163,8 @@ export default class Home extends Component{
                             {!this.state.listReady && this.state.listElements.length==0 ?
                             <h2>No videos</h2> : null}
                             <style jsx>{`
-                                .main-list-element{
-                                    margin-right:${this.props.marginRight}
+                                .main-list-element {
+                                    margin-right: ${this.props.marginRight}
                                 }  
 
                                 h2 {
@@ -172,6 +172,7 @@ export default class Home extends Component{
                                     text-align: center;
                                     color: #ffffff;
                                     font-size: 1.8em;
+                                    font-weight: normal;
                                 }
                             `}
                             </style>

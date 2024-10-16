@@ -2,12 +2,12 @@
     color:#ffffff;
     
 }
-.SettingsContainer{
-    display:flex;
-    flex-direction:column;
-    max-width:350px;
-    min-height:435px;
-    
+.SettingsContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    min-height: 435px;
+    padding: 0 5px; /* Add horizontal padding */
 }
 div.header-bar{
     display: flex;
@@ -48,12 +48,13 @@ h1{
     max-height:100%;
 }
 .Setting {
-    margin-top:8px;
+    margin-top: 12px;
     display: flex;
-    flex-direction:column;
-    justify-content:start;
-    align-items:start;
-    color: #ffffff
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color: #ffffff;
+    padding: 0 2px; /* Add some horizontal padding */
 }
 .SettingLabel{
     font-weight:bold;
@@ -144,4 +145,7 @@ h1{
     color: #ffffff;
     padding-bottom:2px;
     /* border: 1px solid black; */
+}
+.Message {
+    padding: 0 2px; /* Add some horizontal padding */
 }

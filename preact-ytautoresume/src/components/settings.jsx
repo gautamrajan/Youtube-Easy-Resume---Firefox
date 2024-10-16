@@ -126,12 +126,6 @@ export default class SettingsPage extends Component {
             console.log("DATA READY: " + dataReady);
             return (
                 <div className="SettingsContainer">
-                    <style jsx>{`
-                        .header-bar{
-                            margin-top:4px;
-                        }
-                    `}
-                    </style>
                     <div className="header-bar">
                         <h1>Settings</h1>
                         <div className='button-wrapper'>
@@ -225,7 +219,7 @@ export default class SettingsPage extends Component {
                                 <style jsx>{`
                                     .Message {
                                         color: white;
-                                        margin-top:8px;
+:8px;
                                         font-size: 15px;
                                         display: inline-block;
                                         flex-direction:row;

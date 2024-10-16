@@ -14,6 +14,9 @@ npm run dev
 # build for production with minification
 npm run build
 
+# package the extension into a zip
+npm run package
+
 # test the production build locally
 npm run serve
 

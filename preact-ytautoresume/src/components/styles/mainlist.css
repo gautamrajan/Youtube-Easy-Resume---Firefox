@@ -1,14 +1,11 @@
-.main-list{
-    /* background:red; */
-    /* border-top: 1px solid #aaaaaa;   */
-    margin-right:0px;
+.main-list {
+    margin-right: 0px;
     padding-top: 2px;
-    max-width:350px;
-    max-height:385px;
-    display:block;
-    overflow: hidden;
-    overflow-y:auto;
-    /* scrollbar-width: thin;*/
+    width: 350px;
+    height: 385px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
