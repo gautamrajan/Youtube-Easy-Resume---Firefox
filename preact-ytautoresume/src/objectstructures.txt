@@ -1,0 +1,20 @@
+Object Structures: 
+
+    video:{
+        videolink,
+        time,
+        duration,
+        title,
+        channel,
+        complete:boolean,
+        doNotResume:boolean,
+        timestamp: string timestamp,
+    }
+
+    settings:{
+        pauseResume: boolean,
+        minWatchTime: value in seconds,
+        minVideoLength: value in seconds,
+        markPlayedTime: value in seconds,
+        deleteAfter: days
+    }

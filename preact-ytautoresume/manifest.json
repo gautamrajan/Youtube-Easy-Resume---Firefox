@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Easy Resume",
+    "version": "0.0.1.6",
+    "description": "An extension that provides auto-resume functionality and an easy to access watchlist for YouTube",
+    "short_name": "YT Easy Resume",
+    "permissions": [
+        "storage",
+        "*://*.youtube.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "default_title": "YouTube Easy Resume",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon128.png",
+            "48": "icons/icon128.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/icon128.png",
+        "48": "icons/icon128.png",
+        "128": "icons/icon128.png"
+    },
+    "web_accessible_resources": [
+        "icons/redcircle.svg",
+        "icons/playericon.svg",
+        "icons/playericon_inactive.svg"
+    ]
+}
